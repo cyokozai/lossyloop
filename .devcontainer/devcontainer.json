@@ -1,7 +1,14 @@
+"build" : {
+    "dockerfile": "../Dockerfile",
+
+    "context": "./"
+  }
+
+
 {
-    "dockerComposeFile": "docker-compose.yml",
+    "dockerComposeFile": "../docker-compose.yaml",
 
     "service": "golang",
-    
-    "workspaceFolder": "/workspace/${localWorkspaceFolderBasename}"
+
+    "workspaceFolder": "/home/workdir/"
 }

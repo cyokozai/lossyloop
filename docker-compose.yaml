@@ -5,10 +5,11 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    working_dir: /root/src
+    working_dir: /home/src
     volumes:
-      - ./output:/root/src/output
+      - ./output:/home/src/output
     networks:
       - default
     environment:
       - TZ=Asia/Tokyo
+      - LANG=C.UTF-8
