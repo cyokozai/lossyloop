@@ -1,0 +1,12 @@
+services:
+  golang:
+    image: golang:latest
+    container_name: golang.dev
+    volumes:
+      - ..:/workdir
+    working_dir: /workdir
+    stdin_open: true
+    tty: true
+    environment:
+      - TZ=Asia/Tokyo
+      - LANG=C.UTF-8
