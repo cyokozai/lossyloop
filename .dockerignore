@@ -1,7 +1,7 @@
+docker-compose.yaml
 docker-compose.yml
 Dockerfile
 README.md
 .git
 LICENSE
-.env
-./icon
+./icon/
